@@ -1,0 +1,34 @@
+Program is:
+	ClassDecl is:
+		Factorial
+		ExtensionList is:
+			
+		MethodDecl is:
+			void main
+			VarDecl is:
+				int a
+			Assignment is:
+				IdentLvalue is:
+					a
+				NumberExpression is:
+					int
+			WhileStatement is:
+				While
+					MoreExpression is:
+						IdentExpression is:
+							a
+						NumberExpression is:
+							int
+				:
+					ScopeDecl is:
+						Assignment is:
+							IdentLvalue is:
+								a
+							SubExpression is:
+								IdentExpression is:
+									a
+								NumberExpression is:
+									int
+						PrintStatement is:
+							IdentExpression is:
+								a
